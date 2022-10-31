@@ -1,0 +1,2156 @@
+* {
+	background-color: #e4e4e4;
+}
+
+/* Login page  */
+input[type=text]{
+	background-color: #fff6eb;
+}
+
+input[type=password]{
+	background-color:  #fff6eb;
+}
+input[type=submit]{
+	background-color:   #c3c0be ;
+}
+
+#logo {
+	
+	max-width: 100%;
+	height: auto;
+	top: 7;
+	left: 7;
+	border: 1px ridge #000000;
+}
+
+
+
+
+
+
+
+
+/* Header *************************************************/
+
+#welcome_banner {
+	position: relative;
+	float: right;
+	margin-top: -100px;
+	margin-left: -10px;
+}
+
+#banner_logout {
+	font-size: 10px;
+	float: right;
+	margin-right: 5px;
+	margin-top: -88px;
+}
+
+
+#banner_logout ul {
+	list-style-type:none;
+}
+
+ul {
+	list-style-type:none;
+}
+
+
+	
+
+/* PAGE FEATURES */
+
+#page_title {
+	position: relative;
+	padding-left: 45%;
+	margin-top: -22px;
+}
+
+span {
+	background-color: #f9f8f7;
+}
+
+#nounderline {
+	text-decoration: none;
+	color:#000;
+	font-weight: bold;
+}
+
+#nounderlineRed {
+	text-decoration: none;
+	color: #d41616;
+	font-weight: bold;
+}
+
+
+/* SWITCHBOARD **********************************************/	
+
+#sw_col1 {
+	margin-left: 17%;
+	position: relative;
+	top: 80px;
+}
+#sw_col2 {
+	margin-left: 45.5%;
+	position: relative;
+	top: 45px;
+}
+#sw_col3 {
+	margin-left: 75.5%;
+	position: relative;
+	top: 10px;
+}
+
+#staff1 {
+	position: absolute;
+	border: 1px ridge #000000;
+	width: 300px;
+	margin-left: 12%;
+	height: 410px;
+}
+
+#staff1 li{
+	border-collapse: seperate;
+	margin-top: 10px;
+	border: 1px ridge #000000;
+	background-color: #f9f8f7; 	
+	text-align: center;
+	font-size: 20px;
+	padding:10px 5px;
+	width: 210px;	
+	text-decoration: none;
+}
+
+
+#staff2 {
+	position: absolute;
+	border: 1px ridge #000000;
+	width: 300px;
+	margin-left: 41%;
+	height: 410px;
+}
+
+
+#staff2 li{
+	border-collapse: separate;
+	margin-top: 10px;
+	border: 1px ridge #000000;
+	background-color: #f9f8f7; 	
+	text-align: center;
+	font-size: 20px;
+	padding:10px 5px;
+	width: 210px;
+}
+
+
+#staff3 {
+	position: absolute;
+	border: 1px ridge #000000;
+	width: 300px;
+	margin-left: 70%;
+	height: 410px;
+}
+
+#staff3 li{
+	border-collapse: separate;
+	margin-top: 10px;
+	border: 1px ridge #000000;
+	background-color: #f9f8f7; 	
+	text-align: center;
+	font-size: 20px;
+	padding:10px 5px;
+	width: 210px;
+}
+
+
+/* SWITCHBOARD HELP ICON 1 */
+
+#sw_help1_icon {
+	border-radius: 50%;
+	display: block;
+	max-width:20px;
+	max-height:20px;
+	width: auto;
+	height: auto;
+	position: absolute;
+	margin-left: 29%;
+	top: 222px;
+}
+
+.sw_help1 div{
+	text-align: center;	
+	visibility: hidden;  /* text bubble control */
+	background-color: #555;
+	color: #fff;  /* text color */
+	position: absolute;
+	margin-left: 28%;
+	top: 242px;
+	border-radius: 6px;
+}
+/*
+.sw_help1:before {
+	content: "";
+	position: absolute;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #00bfb6;
+	border-bottom: 10px solid transparent;
+	right: 50%;
+	bottom: -23px;
+}
+ */
+.sw_help1:hover{
+ cursor: pointer;
+}
+
+.sw_help1:hover div{
+	width: 180px;
+	padding: 8px 15px;
+	visibility: visible;
+	opacity: .9; 
+}
+
+
+/* SWITCHBOARD HELP ICON 2 */
+
+#sw_help2_icon {
+	border-radius: 50%;
+	display: block;
+	max-width:20px;
+	max-height:20px;
+	width: auto;
+	height: auto;
+	position: absolute;
+	margin-left: 58%;
+	top: 222px;
+}
+
+.sw_help2 div{
+	text-align: center;	
+	visibility: hidden;  /* text bubble control */
+	background-color: #555;
+	color: #fff;  /* text color */
+	position: absolute;
+	margin-left: 57%;
+	top: 242px;
+	border-radius: 6px;
+}
+
+/*
+.sw_help2:before {
+	content: "";
+	position: absolute;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #00bfb6;
+	border-bottom: 10px solid transparent;
+	right: 50%;
+	bottom: -23px;
+}
+ */
+.sw_help2:hover{
+ cursor: pointer;
+}
+
+.sw_help2:hover div{
+	width: 180px;
+	padding: 8px 15px;
+	visibility: visible;
+	opacity: .9; 
+}
+
+
+/* SWITCHBOARD HELP ICON 3 */
+
+#sw_help3_icon {
+	border-radius: 50%;
+	display: block;
+	max-width:20px;
+	max-height:20px;
+	width: auto;
+	height: auto;
+	position: absolute;
+	margin-left: 87%;
+	top: 222px;
+}
+
+.sw_help3 div{
+	text-align: center;	
+	visibility: hidden;  /* text bubble control */
+	background-color: #555;
+	color: #fff;  /* text color */
+	position: absolute;
+	margin-left: 86%;
+	top: 242px;
+	border-radius: 6px;
+}
+
+/*
+.sw_help3:before {
+	
+	
+	content: "";
+	position: absolute;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #00bfb6;
+	border-bottom: 10px solid transparent;
+	right: 50%;
+	bottom: -23px; 
+}*/
+ 
+.sw_help3:hover{
+ cursor: pointer;
+}
+
+.sw_help3:hover div{
+	width: 180px;
+	padding: 8px 15px;
+	visibility: visible;
+	opacity: .9; 
+}
+
+
+
+
+/*  FOOTER *****************************************************/
+
+#footer {
+	position: absolute;
+	bottom: 0px;
+}
+
+/*  Add Employee *****************************************************/
+
+/*display window scroll */
+div.ex1 {   
+  
+}
+
+#staff_dispaybox {
+	position: relative;
+	margin-left: 13%;
+	top: -310px;
+	background-color: white;
+	width: 1150px;
+	height: 600px;
+	overflow: scroll;
+	border: 1px solid;
+	z-index: 10;
+}
+
+#emp_results_table {
+	width: 100%;
+	background-color: white;
+	padding-top: 4px;
+	padding-left: 10px;
+}
+
+#emp_results_table tr td{background-color: white;}
+
+#col_lab {text-decoration-line: underline;} /* underline each column lable in results table */
+
+#emp_add_title {
+	Float: right;
+	position: relative;
+	top: -960px;
+	padding-right: 22px;
+	text-decoration-line: underline;
+	z-index: 1;
+}
+
+#emp_add_title2 {
+	position: relative;
+	top: -966px;
+	padding-left: 22px;
+	text-decoration-line: underline;
+}
+
+#input_txt1 {
+position: relative;
+	left: 1400px;
+top: -972px;
+}
+
+#input_box {
+position: relative;
+top: -970px;
+		left: 1400px;
+}
+
+
+/* EMPLOYEE HELP ICON 1 */
+
+#emp_help1_icon {
+	border-radius: 50%;
+	display: block;
+	max-width:20px;
+	max-height:20px;
+	width: auto;
+	height: auto;
+	position: absolute;
+	margin-left: 93.5%;
+	top: 150px;
+}
+
+.emp_help1 div{
+	text-align: center;	
+	visibility: hidden;  /* text bubble control */
+	background-color: #555;
+	color: #fff;  /* text color */
+	position: absolute;
+	margin-left: 84%;
+	top: 172px;
+	border-radius: 6px;
+	z-index: 100;
+}
+
+.emp_help1:hover{
+ cursor: pointer;
+}
+
+.emp_help1:hover div{
+	width: 180px;
+	padding: 8px 15px;
+	visibility: visible;
+	opacity: .9; 
+}
+
+/* EMPLOYEE HELP ICON 2 */
+
+#emp_help2_icon {
+	border-radius: 50%;
+	display: block;
+	max-width:20px;
+	max-height:20px;
+	width: auto;
+	height: auto;
+	position: absolute;
+	margin-left: 93.5%;
+	top: 321px;
+}
+
+.emp_help2 div{
+	text-align: center;	
+	visibility: hidden;  /* text bubble control */
+	background-color: #555;
+	color: #fff;  /* text color */
+	position: absolute;
+	margin-left: 84%;
+	top: 343px;
+	border-radius: 6px;
+	z-index: 100;
+}
+
+.emp_help2:hover{
+ cursor: pointer;
+}
+
+.emp_help2:hover div{
+	width: 180px;
+	padding: 8px 15px;
+	visibility: visible;
+	opacity: .9; 
+}
+
+/* EMPLOYEE HELP ICON 3 */
+
+#emp_help3_icon {
+	border-radius: 50%;
+	display: block;
+	max-width:20px;
+	max-height:20px;
+	width: auto;
+	height: auto;
+	position: absolute;
+	margin-left: 93.5%;
+	top: 378px;
+}
+
+.emp_help3 div{
+	text-align: center;	
+	visibility: hidden;  /* text bubble control */
+	background-color: #555;
+	color: #fff;  /* text color */
+	position: absolute;
+	margin-left: 84%;
+	top: 400px;
+	border-radius: 6px;
+}
+
+.emp_help3:hover{
+ cursor: pointer;
+}
+
+.emp_help3:hover div{
+	width: 180px;
+	padding: 8px 15px;
+	visibility: visible;
+	opacity: .9; 
+}
+
+#emp2switch { /* back to switchboard button*/
+	position: absolute;
+	margin-left: 84%;
+	top: 780px;
+	box-shadow: 12px 10px 6px 1px #888888;
+	border: 1px solid;
+	width: 13%;
+}
+
+
+/*  Add Client *****************************************************/
+
+#client_dispaybox {
+	position: relative;
+	margin-left: 13%;
+	top: -427px;
+	background-color: white;
+	width: 1150px;
+	height: 600px;
+	overflow: scroll;
+	border: 1px solid;
+	z-index: 10;
+}
+
+#cust_add_title {
+	Float: right;
+	position: relative;
+	top: -1074px;
+	padding-right: 22px;
+	text-decoration-line: underline;
+	z-index: 1;
+}
+
+#cust_add_title2 {
+	position: relative;
+	top: -1082px;
+	padding-left: 22px;
+	text-decoration-line: underline;
+}
+
+#cust_input_txt1 {
+position: relative;
+	left: 1400px;
+top: -1086px;
+}
+
+#cust_input_box {
+position: relative;
+top: -1086px;
+		left: 1400px;
+}
+
+
+/* CLIENT HELP ICON 2 */
+
+#cust_help2_icon {
+	border-radius: 50%;
+	display: block;
+	max-width:20px;
+	max-height:20px;
+	width: auto;
+	height: auto;
+	position: absolute;
+	margin-left: 93.5%;
+	top: 492px;
+}
+
+.cust_help2 div{
+	text-align: center;	
+	visibility: hidden;  /* text bubble control */
+	background-color: #555;
+	color: #fff;  /* text color */
+	position: absolute;
+	margin-left: 84%;
+	top: 514px;
+	border-radius: 6px;
+	z-index: 100;
+}
+
+.cust_help2:hover{
+ cursor: pointer;
+}
+
+.cust_help2:hover div{
+	width: 180px;
+	padding: 8px 15px;
+	visibility: visible;
+	opacity: .9; 
+}
+
+
+/*  Add DVD & Movies *****************************************************/
+
+#page_title_dvds {
+	position: relative;
+	padding-left: 40%;
+	margin-top: -22px;
+}
+
+#dvd_dispaybox {
+	position: absolute;
+	margin-left: 13%;
+	top: 120px;
+	background-color: white;
+	width: 1150px;
+	height: 320px;
+	overflow: scroll;
+	border: 1px solid;
+	z-index: 10;
+}
+
+#Movie_dispaybox {
+	position: absolute;
+	margin-left: 13%;
+	top: 450px;
+	background-color: white;
+	width: 1150px;
+	height: 320px;
+	overflow: scroll;
+	border: 1px solid;
+	z-index: 10;
+}
+
+/* DVD FILTER TWEEKS */
+#dvd_filter_title {
+	position: absolute;
+	top: 85px;
+	padding-left: 22px;
+	text-decoration-line: underline;
+}
+
+#dvdfilter1 {
+	position: absolute;
+	top: 128px;
+}
+
+#dvdfilter2 {
+	position: absolute;
+	top: 146px;
+}
+
+#dvdfilter3 {
+	position: absolute;
+	top: 171px;
+}
+
+#dvdfilter4 {
+	position: absolute;
+	top: 189px;
+	z-index: 10;
+}
+
+#dvdfilter12 {
+	position: absolute;
+	top: 214px;
+}
+
+#dvdfilter13 {
+	position: absolute;
+	top: 232px;
+	z-index: 9;
+}
+
+#dvdfilter5 {
+	position: absolute;
+	top: 240px;
+}
+
+#dvdfilter6 {
+	position: absolute;
+	top: 276px;
+	z-index: 8;
+}
+
+#dvdfilter7 {
+	position: absolute;
+	top: 282px;
+}
+
+#dvdfilter8 {
+	position: absolute;
+	top: 319px;
+	z-index: 7;
+}
+
+#dvdfilter9 {
+	position: absolute;
+	top: 326px;
+}
+
+#dvdfilter10 {
+	position: absolute;
+	top: 362px;
+}
+
+#dvdfilter11 {
+	position: absolute;
+	top: 362px;
+	left: 127px;
+}
+
+/* MOVIE FILTER COLUMN */
+
+#movie_filter_title {
+	position: absolute;
+	top: 408px;
+	padding-left: 22px;
+	text-decoration-line: underline;
+}
+
+#titleNum1 {
+	position: absolute;
+	top: 450px;
+}
+
+#titleNum2 {
+	position: absolute;
+	top: 469px;
+}
+
+#title1 {
+	position: absolute;
+	top: 495px;
+}
+
+#title2 {
+	position: absolute;
+	top: 513px;
+}
+
+#releaseYR1 {
+	position: absolute;
+	top: 539px;
+}
+
+#releaseYR2 {
+	position: absolute;
+	top: 557px;
+}
+
+#genre1 {
+	position: absolute;
+	top: 581px;
+}
+
+#genre2 {
+	position: absolute;
+	top: 598px;
+}
+
+#language1 {
+	position: absolute;
+	top: 623px;
+}
+
+#language2 {
+	position: absolute;
+	top: 641px;
+}
+
+#director1 {
+	position: absolute;
+	top: 665px;
+}
+
+#director2 {
+	position: absolute;
+	top: 682px;
+}
+
+#actor1 {
+	position: absolute;
+	top: 706px;
+}
+
+#actor2 {
+	position: absolute;
+	top: 724px;
+}
+
+#ff {
+	position: relative;
+	top: 138px;
+}
+
+#foreignFilm {
+	position: relative;
+	top: 138px;
+	z-index: 1;
+}
+
+#mov_button {
+	position: absolute;
+	top: 765px;
+	left: 127px;
+	z-index: 1;
+}
+
+
+/* DVD ADD/EDIT COLUMN */
+
+#dvd_add_title {
+	Float: right;
+	position: relative;
+	top: -257px;
+	padding-right: 22px;
+	text-decoration-line: underline;
+	z-index: 1;
+}
+
+#dvd_input1 {
+	position: absolute;
+	left: 1400px;
+	top: 127px;
+}
+
+#dvd_input2 {
+	position: absolute;
+	left: 1400px;
+	top: 145px;
+}
+
+#dvd_input3 {
+	position: absolute;
+	left: 1400px;
+	top: 170px;
+}
+
+#dvd_input4 {
+	position: absolute;
+	left: 1400px;
+	top: 188px;
+}
+
+#dvd_input5 {
+	position: absolute;
+	left: 1400px;
+	top: 213px;
+}
+
+#dvd_input6 {
+	position: absolute;
+	left: 1400px;
+	top: 231px;
+}
+
+#dvd_input7 {
+	position: absolute;
+	left: 1400px;
+	top: 256px;
+}
+
+#dvd_input8 {
+	position: absolute;
+	left: 1400px;
+	top: 274px;
+}
+			
+#dvd_input9 {
+	position: absolute;
+	left: 1550px;
+	top: 274px;
+}
+
+/* MOVIES ON DVD ADD/EDIT COLUMN */
+
+#movie_dvd_title {
+	position: absolute;
+	left: 1400px;
+	top: 312px;
+	padding-left: 22px;
+	text-decoration-line: underline;
+}
+
+#moviesondvd_input1 {   /* dvd num */
+	position: absolute;
+	left: 1400px;
+	top: 354px;
+	
+}
+
+#moviesondvd_input2 {   /* dvd num */
+	position: absolute;
+	left: 1400px;
+	top: 372px;
+	width: 100px;
+}
+
+#moviesondvd_input3 {   /* title num */
+	position: absolute;
+	left: 1400px;
+	top: 396px;
+}
+
+#moviesondvd_input4 {   /* title num */
+		position: absolute;
+	left: 1400px;
+	top: 414px;
+	width: 100px;
+}
+
+#moviesondvd_input5 {   /* radio 'add/edit' */
+	position: absolute;
+	left: 1525px;
+	top: 360px;
+}
+
+#moviesondvd_input6 {   /* radio 'add/edit' */
+		position: absolute;
+	left: 1550px;
+	top: 360px;
+}
+
+#moviesondvd_input7 {   /* radio 'remove' */
+	position: absolute;
+	left: 1525px;
+	top: 378px;
+}
+
+#moviesondvd_input8 {   /* radio 'remove' */
+		position: absolute;
+	left: 1550px;
+	top: 378px;
+}
+
+#moviesondvd_input9 {   /* submit button */
+	position: absolute;
+	left: 1550px;
+	top: 415px;
+}
+
+
+/* MOVIE ADD/EDIT COLUMN */
+
+#movie_add_title {
+	position: absolute;
+	left: 1400px;
+	top: 439px;
+	padding-left: 22px;
+	text-decoration-line: underline;
+}
+
+#mov_input1 {   /* title num */
+	position: absolute;
+	left: 1400px;
+	top: 480px;
+}
+
+#mov_input2 {   /* title num */
+	position: absolute;
+	left: 1400px;
+	top: 498px;
+}
+
+#mov_input3 {   /* title */
+	position: absolute;
+	left: 1400px;
+	top: 522px;
+}
+
+#mov_input4 {   /* title */
+	position: absolute;
+	left: 1400px;
+	top: 540px;
+}
+
+#mov_input5 {   /* Release YR */
+		position: absolute;
+	left: 1400px;
+	top: 564px;
+}
+
+#mov_input6 {   /* Release YR */
+	position: absolute;
+	left: 1400px;
+	top: 582px;
+	width: 100px;
+}
+
+#mov_input7 {   /* Duration */
+		position: absolute;
+	left: 1530px;
+	top: 564px;
+}
+
+#mov_input8 {   /* Duration */
+		position: absolute;
+	left: 1530px;
+	top: 582px;
+	width: 100px;
+}
+
+#mov_input9 {   /* Language */
+		position: absolute;
+	left: 1530px;
+	top: 606px;
+}
+
+#mov_input10 {   /* Language */
+		position: absolute;
+	left: 1530px;
+	top: 624px;
+	width: 100px;
+}
+
+#mov_input11 {   /* Foreign Film */
+	position: absolute;
+	left: 1400px;
+	top: 606px;
+}
+
+#mov_input12 {   /* Foreign Film */
+	position: absolute;
+	left: 1400px;
+	top: 624px;
+	width: 100px;
+}
+
+#mov_input13 {   /* Director */
+	position: absolute;
+	left: 1400px;
+	top: 648px;
+}
+
+#mov_input14 {   /* Director */
+	position: absolute;
+	left: 1400px;
+	top: 666px;
+}
+
+#mov_input15 {   /* Genre */
+	position: absolute;
+	left: 1400px;
+	top: 690px;
+}
+
+#mov_input16 {   /* Genre */
+	position: absolute;
+	left: 1400px;
+	top: 708px;
+}
+
+#mov_input17 {   /* Actor */
+	position: absolute;
+	left: 1400px;
+	top: 732px;
+}
+
+#mov_input18 {   /* Actor */
+	position: absolute;
+	left: 1400px;
+	top: 750px;
+}
+
+#mov_input19 {  /* submit button */
+		position: absolute;
+	left: 1600px;
+	top: 750px;
+}
+/*
+#foreignFilm2 {
+	position: absolute;
+	top: 105px;
+	z-index: 1;
+}
+
+     */
+
+
+/* DVD EDIT HELP ICON 1 */
+
+#dvd_help1_icon {
+	border-radius: 50%;
+	display: block;
+	max-width:20px;
+	max-height:20px;
+	width: auto;
+	height: auto;
+	position: absolute;
+	margin-left: 83%;
+	top: 101px;
+}
+
+.dvd_help1 div{
+	text-align: center;	
+	visibility: hidden;  /* text bubble control */
+	background-color: #555;
+	color: #fff;  /* text color */
+	position: absolute;
+	margin-left: 83.5%;
+	top: 167px;
+	border-radius: 6px;
+	z-index: 100;
+}
+
+.dvd_help1:hover{
+ cursor: pointer;
+}
+
+.dvd_help1:hover div{
+	width: 180px;
+	padding: 8px 15px;
+	visibility: visible;
+	opacity: .9; 
+}
+
+/* DVD ASSOCIATING HELP ICON 2 */
+
+#dvd_help2_icon {
+	border-radius: 50%;
+	display: block;
+	max-width:20px;
+	max-height:20px;
+	width: auto;
+	height: auto;
+	position: absolute;
+	margin-left: 83%;
+	top: 330px;
+}
+
+.dvd_help2 div{
+	text-align: center;	
+	visibility: hidden;  /* text bubble control */
+	background-color: #555;
+	color: #fff;  /* text color */
+	position: absolute;
+	margin-left: 83.5%;
+	top: 394px;
+	border-radius: 6px;
+	z-index: 100;
+}
+
+.dvd_help2:hover{
+ cursor: pointer;
+}
+
+.dvd_help2:hover div{
+	width: 180px;
+	padding: 8px 15px;
+	visibility: visible;
+	opacity: .9; 
+}
+
+/* DVD MOVIE HELP ICON 3 */
+
+#dvd_help3_icon {
+	border-radius: 50%;
+	display: block;
+	max-width:20px;
+	max-height:20px;
+	width: auto;
+	height: auto;
+	position: absolute;
+	margin-left: 83%;
+	top: 454px;
+}
+
+.dvd_help3 div{
+	text-align: center;	
+	visibility: hidden;  /* text bubble control */
+	background-color: #555;
+	color: #fff;  /* text color */
+	position: absolute;
+	margin-left: 84.3%;
+	top: 430px;
+	border-radius: 6px;
+}
+
+.dvd_help3:hover{
+ cursor: pointer;
+}
+
+.dvd_help3:hover div{
+	width: 180px;
+	padding: 8px 15px;
+	visibility: visible;
+	opacity: .9; 
+}
+
+
+
+/*  RETURN DVDs *****************************************************/
+
+#returnDVD1 {
+	position: absolute;
+	top: 172px;
+}
+
+#returnDVD2 {
+	position: absolute;
+	top: 190px;
+}
+
+#returnDVD3 { /* 'special option title' */
+	position: absolute;
+	top: 226px;
+}
+
+#returnDVD4 { /* default selected radio */
+	position: absolute;
+	top: 248px;
+}
+
+#returnDVD5 {
+	position: absolute;
+	top: 248px;
+	left: 34px;
+}
+
+#returnDVD6 { /* radio */
+	position: absolute;
+	top: 270px;
+}
+
+#returnDVD7 {
+	position: absolute;
+	top: 270px;
+	left: 30px;
+}
+
+#returnDVD8 {
+	position: absolute;
+	top: 230px;
+	left: 124px;
+}
+
+
+
+
+
+#return_filter_title {
+	position: absolute;
+	top: 470px;	
+}
+
+#returnDVD_filter1 {
+	position: absolute;
+	top: 516px;
+}
+
+#returnDVD_filter2 {
+	position: absolute;
+	top: 534px;
+}
+
+#returnDVD_filter3 {
+	position: absolute;
+	top: 562px;
+}
+
+#returnDVD_filter4 {
+	position: absolute;
+	top: 580px;
+	z-index: 10;
+}
+
+#returnDVD_filter5 {
+	position: absolute;
+	top: 590px;
+}
+
+#returnDVD_filter6 {
+	position: absolute;
+	top: 627px;
+	z-index: 10;
+}
+
+#returnDVD_filter7 {
+	position: absolute;
+	top: 636px;
+}
+
+#returnDVD_filter8 {
+	position: absolute;
+	top: 672px;
+}
+
+#returnDVD_filter9 {
+	position: absolute;
+	top: 706px;
+	left: 124px;
+}
+
+
+
+#return_dispaybox {
+	position: relative;
+	margin-left: 15.25%;
+	top: -250px;
+	background-color: white;
+	width: 1150px;
+	height: 600px;
+	overflow: scroll;
+	border: 1px solid;
+	z-index: 10;
+}
+
+
+/* RETURN HELP ICON 1 */
+
+#return_help1_icon {
+	border-radius: 50%;
+	display: block;
+	max-width:20px;
+	max-height:20px;
+	width: auto;
+	height: auto;
+	position: absolute;
+	margin-left: 9.5%;
+	top: 166px;
+}
+
+.return_help1 div{
+	text-align: center;	
+	visibility: hidden;  /* text bubble control */
+	background-color: #555;
+	color: #fff;  /* text color */
+	position: absolute;
+	margin-left: 1%;
+	top: 200px;
+	border-radius: 6px;
+}
+
+.return_help1:hover{
+ cursor: pointer;
+}
+
+.return_help1:hover div{
+	width: 180px;
+	padding: 8px 15px;
+	visibility: visible;
+	opacity: .9; 
+}
+
+
+
+
+
+
+/*  RENT DVDs CUST LOOK UP *****************************************************/
+
+#page_title_checkOut {
+	position: relative;
+	padding-left: 35%;
+	margin-top: -22px;
+}
+
+#page_title_checkOut_subtitle {
+	position: relative;
+	padding-left: 40%;
+	margin-top: -22px;
+}
+
+#rent_find_cust_dispaybox {
+	position: relative;
+	margin-left: 15.25%;
+	top: -432px;
+	background-color: white;
+	width: 1150px;
+	height: 575px;
+	overflow: scroll;
+	border: 1px solid;
+	z-index: 10;
+}
+
+#cust_account_lable {
+	position: absolute;
+	top: 175px;
+	left: 1420px;
+}
+
+#cust_account_input {
+	position: absolute;
+	top: 214px;
+	left: 1446px;
+}
+
+#cust_account_submit {
+	position: absolute;
+	top: 255px;
+	left: 1504px;
+}
+
+
+
+/*  ACTUAL RENT DVDs PAGE *****************************************************/
+
+#cust_info_dispaybox {
+	position: relative;
+	margin-left: 5%;
+	top: -404px;
+	background-color: white;
+	width: 450px;
+	height: 500px;
+	overflow: scroll;
+	border: 1px solid;
+	/*z-index: 10;*/
+}
+
+#col_lab2 {color: white;} /* white text in table displays*/
+
+#dvd_rental_dispaybox {
+	position: relative;
+	margin-left: 68%;
+	top: -0px;
+	background-color: white;
+	width: 450px;
+	height: 200px;
+	overflow: scroll;
+	border: 1px solid;
+}
+
+#rent_dvd_title {
+	position: absolute;
+	top: 100px;
+	left: 1250px;
+}
+
+#rent_enter_dvd_title {
+	position: absolute;
+	top: 130px;
+	left: 690px;
+}
+
+#rent_dvd_field {
+	position: absolute;
+	top: 176px;
+	left: 716px;
+}
+
+#rent_dvd_submit {
+	position: absolute;
+	top: 175px;
+	left: 906px;
+}
+
+#cost_dispaybox {
+	position: relative;
+	margin-left: 41.5%;
+	top: -110px;
+	width: 300px;
+	height: 150px;
+}
+
+#cust_info_label {
+	position: absolute;
+	top: 96px;
+	left: 230px;
+}
+
+#page_title_checkout {
+	position: relative;
+	padding-left: 36.6%;
+	margin-top: -22px;
+}
+
+#pay_method_label {
+	position: absolute;
+	top: 400px;
+	left: 778px;
+}
+
+#pay_method_drop {
+	position: absolute;
+	top: 422px;
+	left: 794px;	
+}
+
+#pay_method_button {
+	position: absolute;
+	top: 450px;
+	left: 770px;
+}
+
+#pay_method_cancel {
+	position: absolute;
+	top: 760px;
+	left: 695px;
+	padding: 10px;
+}
+
+
+/*  END OF SALE PAGE *****************************************************/
+#to_rental {
+	position: absolute;
+	margin-left: 32%;
+	top: 280px;
+	box-shadow: 12px 10px 6px 1px #888888;
+	border: 1px solid;
+	width: 13%;
+
+}
+
+#to_switch {
+	position: absolute;
+	margin-left: 54%;
+	top: 280px;
+	box-shadow: 12px 10px 6px 1px #888888;
+	border: 1px solid;
+	width: 13%;
+
+}
+
+
+
+/*  CUSTOM REPORT PAGE *****************************************************/
+
+#sale_filter_title {
+	position: absolute;
+	top: 100px;
+}
+
+#sales_filter_1 {
+	position: absolute;
+	top: 142px;
+	left: 50px;
+}
+
+#sales_filter_input_1 {
+	position: absolute;
+	top: 140px;
+	left: 155px;
+	width: 80px;
+}
+
+#sales_filter_2 {
+	position: absolute;
+	top: 167px;
+	left: 50px;
+}
+
+#sales_filter_input_2 {
+	position: absolute;
+	top: 165px;
+	left: 155px;
+	width: 80px;
+}
+
+#sales_filter_3 {
+	position: absolute;
+	top: 192px;
+	left: 50px;
+}
+
+#sales_filter_input_3 {
+	position: absolute;
+	top: 190px;
+	left: 155px;
+	width: 80px;
+}
+
+#sales_filter_4 {
+	position: absolute;
+	top: 217px;
+	left: 50px;
+}
+
+#sales_filter_input_4 {
+	position: absolute;
+	top: 215px;
+	left: 155px;
+	width: 80px;
+}
+
+#sales_filter_5 {
+	position: absolute;
+	top: 242px;
+	left: 50px;
+}
+
+#sales_filter_input_5 {
+	position: absolute;
+	top: 240px;
+	left: 155px;
+	width: 80px;
+}
+
+#sales_filter_6 {
+	position: absolute;
+	top: 267px;
+	left: 50px;
+}
+
+#sales_filter_input_6 {
+	position: absolute;
+	top: 265px;
+	left: 155px;
+	width: 80px;
+}
+
+#sales_filter_7 {
+	position: absolute;
+	top: 292px;
+	left: 50px;
+}
+
+#sales_filter_input_7 {
+	position: absolute;
+	top: 290px;
+	left: 155px;
+	width: 80px;
+}
+
+#sales_filter_8 {
+	position: absolute;
+	top: 317px;
+	left: 50px;
+}
+
+#sales_filter_input_8 {
+	position: absolute;
+	top: 315px;
+	left: 155px;
+	width: 80px;
+}
+
+#sales_filter_9 {
+	position: absolute;
+	top: 342px;
+	left: 50px;
+}
+
+#sales_filter_input_9 {
+	position: absolute;
+	top: 340px;
+	left: 155px;
+	width: 80px;
+}
+
+#sales_filter_10 {
+	position: absolute;
+	top: 367px;
+	left: 50px;
+}
+
+#sales_filter_input_10 {
+	position: absolute;
+	top: 365px;
+	left: 155px;
+	width: 80px;
+}
+
+#sales_filter_input_11 {
+	position: absolute;
+	top: 165px;
+	left: 240px;
+	width: 80px;
+}
+
+#sale_filter_button {
+	position: absolute;
+	top: 392px;
+	left: 50px;
+}
+
+#salescheck1 {
+	position: absolute;
+	top: 141px;
+	left: 27px;
+}
+
+#salescheck2 {
+	position: absolute;
+	top: 166px;
+	left: 27px;
+}
+
+#salescheck3 {
+	position: absolute;
+	top: 191px;
+	left: 27px;
+}
+
+#salescheck4 {
+	position: absolute;
+	top: 216px;
+	left: 27px;
+}
+
+#salescheck5 {
+	position: absolute;
+	top: 241px;
+	left: 27px;
+}
+
+#salescheck6 {
+	position: absolute;
+	top: 266px;
+	left: 27px;
+}
+
+#salescheck7 {
+	position: absolute;
+	top: 291px;
+	left: 27px;
+}
+
+#salescheck8 {
+	position: absolute;
+	top: 316px;
+	left: 27px;
+}
+
+#salescheck9 {
+	position: absolute;
+	top: 341px;
+	left: 27px;
+}
+
+#salescheck10 {
+	position: absolute;
+	top: 366px;
+	left: 27px;
+}
+
+#salessort1 {
+	position: absolute;
+	top: 141px;
+}
+
+#salessort2 {
+	position: absolute;
+	top: 166px;
+}
+
+#salessort3 {
+	position: absolute;
+	top: 191px;
+}
+
+#salessort4 {
+	position: absolute;
+	top: 216px;
+}
+
+#salessort5 {
+	position: absolute;
+	top: 241px;
+}
+
+#salessort6 {
+	position: absolute;
+	top: 266px;
+}
+
+#salessort7 {
+	position: absolute;
+	top: 291px;
+}
+
+#salessort8 {
+	position: absolute;
+	top: 316px;
+}
+
+#salessort9 {
+	position: absolute;
+	top: 341px;
+}
+
+#salessort10 {
+	position: absolute;
+	top: 366px;
+}
+
+
+/* EVENT LOG FILTERS */
+#event_filter_title {
+	position: absolute;
+	top: 450px;
+}
+
+#event_filter_1 {
+	position: absolute;
+	top: 492px;
+	left: 50px;
+}
+
+#event_filter_input_1 {
+	position: absolute;
+	top: 490px;
+	left: 155px;
+	width: 80px;
+}
+
+#event_filter_2 {
+	position: absolute;
+	top: 517px;
+	left: 50px;
+}
+
+#event_filter_input_2 {
+	position: absolute;
+	top: 515px;
+	left: 155px;
+	width: 80px;
+}
+
+#event_filter_3 {
+	position: absolute;
+	top: 542px;
+	left: 50px;
+}
+
+#event_filter_input_3 {
+	position: absolute;
+	top: 540px;
+	left: 155px;
+	width: 80px;
+}
+
+#event_filter_4 {
+	position: absolute;
+	top: 567px;
+	left: 50px;
+}
+
+#event_filter_input_4 {
+	position: absolute;
+	top: 565px;
+	left: 155px;
+	width: 80px;
+}
+
+#event_filter_5 {
+	position: absolute;
+	top: 592px;
+	left: 50px;
+}
+
+#event_filter_input_5 {
+	position: absolute;
+	top: 590px;
+	left: 155px;
+	width: 80px;
+}
+
+#event_filter_6 {
+	position: absolute;
+	top: 617px;
+	left: 50px;
+}
+
+#event_filter_input_6 {
+	position: absolute;
+	top: 615px;
+	left: 155px;
+	width: 80px;
+}
+
+#event_filter_7 {
+	position: absolute;
+	top: 642px;
+	left: 50px;
+}
+
+#event_filter_input_7 {
+	position: absolute;
+	top: 640px;
+	left: 155px;
+	width: 80px;
+}
+
+#event_filter_input_8 {
+	position: absolute;
+	top: 515px;
+	left: 240px;
+	width: 80px;
+}
+
+#event_filter_button {
+	position: absolute;
+	top: 667px;
+	left: 50px;
+}
+
+#eventcheck1 {
+	position: absolute;
+	top: 491px;
+	left: 27px;
+}
+
+#eventcheck2 {
+	position: absolute;
+	top: 516px;
+	left: 27px;
+}
+
+#eventcheck3 {
+	position: absolute;
+	top: 541px;
+	left: 27px;
+}
+
+#eventcheck4 {
+	position: absolute;
+	top: 566px;
+	left: 27px;
+}
+
+#eventcheck5 {
+	position: absolute;
+	top: 591px;
+	left: 27px;
+}
+
+#eventcheck6 {
+	position: absolute;
+	top: 616px;
+	left: 27px;
+}
+
+#eventcheck7 {
+	position: absolute;
+	top: 641px;
+	left: 27px;
+}
+
+#eventsort1 {
+	position: absolute;
+	top: 491px;
+}
+
+#eventsort2 {
+	position: absolute;
+	top: 516px;
+}
+
+#eventsort3 {
+	position: absolute;
+	top: 541px;
+}
+
+#eventsort4 {
+	position: absolute;
+	top: 566px;
+}
+
+#eventsort5 {
+	position: absolute;
+	top: 591px;
+}
+
+#eventsort6 {
+	position: absolute;
+	top: 616px;
+}
+
+#eventsort7 {
+	position: absolute;
+	top: 641px;
+}
+
+
+
+#custom_dispaybox {
+	position: absolute;
+	margin-left: 19%;
+	top: 126px;
+	background-color: white;
+	width: 1330px;
+	height: 600px;
+	overflow: scroll;
+	border: 1px solid;
+}
+
+#print_report_button {
+	position: absolute;
+	top: 760px;
+	left: 800px;
+	padding: 10px;
+}
+
+#custom_page_title {
+	position: relative;
+	padding-left: 42.3%;
+	margin-top: -22px;
+}
+
+
+
+/* CUSTOM REPORTING HELP ICON 1 */
+
+#cr_help1_icon {
+	border-radius: 50%;
+	display: block;
+	max-width:20px;
+	max-height:20px;
+	width: auto;
+	height: auto;
+	position: absolute;
+	margin-left: 12.2%;
+	top: 117px;
+}
+
+.cr_help1 div{
+	text-align: center;	
+	visibility: hidden;  /* text bubble control */
+	background-color: #555;
+	color: #fff;  /* text color */
+	position: absolute;
+	margin-left: -0.4%;
+	top: 116px;
+	border-radius: 6px;
+}
+
+.cr_help1:hover{
+ cursor: pointer;
+}
+
+.cr_help1:hover div{
+	width: 180px;
+	padding: 8px 15px;
+	visibility: visible;
+	opacity: .9; 
+}
+
+
+/* CUSTOM REPORTING HELP ICON 2 */
+
+#cr_help2_icon {
+	border-radius: 50%;
+	display: block;
+	max-width:20px;
+	max-height:20px;
+	width: auto;
+	height: auto;
+	position: absolute;
+	margin-left: 12.2%;
+	top: 467px;
+}
+
+.cr_help2 div{
+	text-align: center;	
+	visibility: hidden;  /* text bubble control */
+	background-color: #555;
+	color: #fff;  /* text color */
+	position: absolute;
+	margin-left: -0.4%;
+	top: 172px;
+	border-radius: 6px;
+}
+
+.cr_help2:hover{
+ cursor: pointer;
+}
+
+.cr_help2:hover div{
+	width: 180px;
+	padding: 8px 15px;
+	visibility: visible;
+	opacity: .9; 
+}
+
+
+/* CUSTOM REPORTING HELP ICON 3 */
+
+#cr_help3_icon {
+	border-radius: 50%;
+	display: block;
+	max-width:20px;
+	max-height:20px;
+	width: auto;
+	height: auto;
+	position: absolute;
+	margin-left: 17.3%;
+	top: 142px;
+}
+
+.cr_help3 div{
+	text-align: center;	
+	visibility: hidden;  /* text bubble control */
+	background-color: #555;
+	color: #fff;  /* text color */
+	position: absolute;
+	margin-left: 18.8%;
+	top: 140px;
+	border-radius: 6px;
+}
+
+.cr_help3:hover{
+ cursor: pointer;
+}
+
+.cr_help3:hover div{
+	width: 180px;
+	padding: 8px 15px;
+	visibility: visible;
+	opacity: .9; 
+}
+
+
+/* CUSTOM REPORTING HELP ICON 4 */
+
+#cr_help4_icon {
+	border-radius: 50%;
+	display: block;
+	max-width:20px;
+	max-height:20px;
+	width: auto;
+	height: auto;
+	position: absolute;
+	margin-left: 17.3%;
+	top: 492px;
+}
+
+.cr_help4 div{
+	text-align: center;	
+	visibility: hidden;  /* text bubble control */
+	background-color: #555;
+	color: #fff;  /* text color */
+	position: absolute;
+	margin-left: 18.7%;
+	top: 482px;
+	border-radius: 6px;
+}
+
+.cr_help4:hover{
+ cursor: pointer;
+}
+
+.cr_help4:hover div{
+	width: 180px;
+	padding: 8px 15px;
+	visibility: visible;
+	opacity: .9; 
+}
+
+
+
+/* CUSTOM REPORTING HELP ICON 5 */
+
+#cr_help5_icon {
+	border-radius: 50%;
+	display: block;
+	max-width:20px;
+	max-height:20px;
+	width: auto;
+	height: auto;
+	position: absolute;
+	margin-left: 53.3%;
+	top: 768px;
+}
+
+.cr_help5 div{
+	text-align: center;	
+	visibility: hidden;  /* text bubble control */
+	background-color: #555;
+	color: #fff;  /* text color */
+	position: absolute;
+	margin-left: 54.5%;
+	top: 210px;
+	border-radius: 6px;
+}
+
+.cr_help5:hover{
+ cursor: pointer;
+}
+
+.cr_help5:hover div{
+	width: 180px;
+	padding: 8px 15px;
+	visibility: visible;
+	opacity: .9; 
+}
